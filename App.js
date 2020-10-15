@@ -24,14 +24,13 @@ const App = () => {
 const styles = StyleSheet.create({ 
    container: { 
      flex: 1, 
-     backgroundColor: 'green', 
+     backgroundColor: 'white', 
      alignItems: 'center', 
      justifyContent: 'center', 
      },  
     textStyle: {  
       textAlign: 'center',  
       fontFamily: Platform.OS === 'ios' ? 'AvenirNext-Regular' : 'Roboto', 
-      color: 'white'
      }, 
     largeText: { 
         fontSize: 44, 
